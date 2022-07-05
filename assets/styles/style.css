@@ -1,0 +1,116 @@
+:root {
+  --white: #e9e6e3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Finlandica", sans-serif;
+}
+.attentional-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.half-width {
+  width: 40%;
+}
+.half-width h1 {
+  font-size: 50px;
+}
+.half-width h1 span {
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.half-width p {
+  padding: 20px;
+  line-height: 20px;
+}
+
+.half-width img {
+  width: 100%;
+}
+.link-button, a {
+  margin: 10px;
+  padding: 10px 32px;
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  color: var(--white);
+  text-decoration: none;
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+/*****section end*****/
+.bg-about {
+  background-image: url(/assets/images/shapes/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.about_me_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.twich-container {
+  width: 25%;
+}
+
+.twich-container img {
+  width: 100%;
+}
+.recpie-header {
+  text-align: center;
+}
+.recpie-header p {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.recipie-cards {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+.rp-card {
+  width: 40%;
+  box-shadow: 10px 10px 30px rgb(134, 133, 132);
+  text-align: justify;
+  padding: 0 20px;
+  border-radius: 5%;
+}
+.rp-card img {
+  width: 95%;
+  margin: 10px;
+}
+h3, 
+p.rp-card {
+  margin: 20px;
+  line-height: 22px;
+}
+.media-section {
+  margin: 100px 0;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.mc-k {
+  text-align: center;
+}
+.bg-10 {
+  font-size: 50px;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background-color: #0b0d17;
+  color: #e9e6e3;
+  padding: 50px;
+}
+
+h4,
+p.ft-area {
+  margin: 20px 0;
+}
